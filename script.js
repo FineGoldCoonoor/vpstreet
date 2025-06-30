@@ -122,8 +122,8 @@ faceMesh.onResults((results) => {
     const rightSmooth = smooth(rightEarPositions);
     const chinSmooth = smooth(chinPositions);
 
-    const earringScale = 0.3;   // smaller earrings
-    const necklaceScale = 0.4;  // smaller necklace
+    const earringScale = 0.1;   // smaller earrings
+    const necklaceScale = 0.1;  // smaller necklace
 
     if (currentMode === 'earring' && earringImg) {
       const width = earringImg.width * earringScale;
